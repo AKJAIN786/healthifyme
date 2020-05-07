@@ -34,7 +34,7 @@ class User123:
             f.close()
 
 while True:
-    m = str(input("Provide name "))
+    m = str(input("Provide your full name "))
     o = str(input("Provide Number "))
     metre = User123(m, o)
     print("Enter Time Details in minute")
@@ -42,7 +42,7 @@ while True:
     BPW = float(input("Enter Water(Should be more than Quiet more than Exercise)"))
     joy = float(input("Enter for eye(Should be more than Quiet more than Exercise)"))
     print(metre.form)
-    g=input(f"{m}  Can we start Y/N")
+    g=input(f"{m}  Can we start Y/N   ")
     if g == "Y":
         print("Now minimize Tab \nWe will handle all")
         x = 0
